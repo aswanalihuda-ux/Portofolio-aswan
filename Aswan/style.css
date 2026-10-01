@@ -1,0 +1,234 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #00f0ff;
+}
+
+.glow-effect {
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
+}
+.glow-effect:hover {
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.35);
+}
+
+/* Solid Black Background */
+body {
+    background-color: #000000 !important;
+    background-image: none !important;
+    color: #e2e8f0 !important;
+}
+
+.bg-grid-pattern {
+    background-image: none !important;
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #00f0ff 0%, #7000ff 100%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(10, 15, 29, 0.95) !important;
+    border-color: #1e293b !important;
+    color: #e2e8f0 !important;
+}
+header a, header button, header span, header nav {
+    color: #e2e8f0;
+}
+header a:hover {
+    color: #00f0ff !important;
+}
+header .text-white {
+    color: #ffffff !important;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0a0f1d !important;
+    border-color: #1e293b !important;
+    color: #94a3b8 !important;
+}
+footer .text-slate-500 {
+    color: #64748b !important;
+}
+
+/* Content / Main Styling */
+main {
+    background-color: #000000 !important;
+    background-image: none !important;
+}
+
+main .bg-darkcard {
+    background-color: #121929 !important;
+    border-color: #1e293b !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Headings & Text in Content */
+main .text-slate-100 {
+    color: #f8fafc !important;
+}
+main .text-slate-200 {
+    color: #e2e8f0 !important;
+}
+main .text-slate-300 {
+    color: #cbd5e1 !important;
+}
+main .text-slate-400 {
+    color: #94a3b8 !important;
+}
+
+/* Borders in Content */
+main .border-slate-800 {
+    border-color: #1e293b !important;
+}
+main .border-slate-700 {
+    border-color: #334155 !important;
+}
+
+/* Input fields in Form */
+main input,
+main textarea {
+    background-color: #0f172a !important;
+    border-color: #1e293b !important;
+    color: #f8fafc !important;
+}
+main input::placeholder,
+main textarea::placeholder {
+    color: #64748b !important;
+}
+
+/* Badges & Chips in Content */
+main .bg-slate-800\/60,
+main .bg-slate-800 {
+    background-color: #1e293b !important;
+    color: #cbd5e1 !important;
+    border-color: #334155 !important;
+}
+
+main .text-cyan-300 {
+    color: #67e8f9 !important;
+}
+main .text-purple-300 {
+    color: #d8b4fe !important;
+}
+
+/* Skill bars */
+main .bg-slate-800.rounded-full {
+    background-color: #1e293b !important;
+}
+
+/* Filter buttons */
+main .skill-tab-btn:not(.active-tab),
+main .proj-filter-btn:not(.active-proj-btn) {
+    background-color: #1e293b !important;
+    color: #cbd5e1 !important;
+    border: 1px solid #334155 !important;
+}
+main .skill-tab-btn:not(.active-tab):hover,
+main .proj-filter-btn:not(.active-proj-btn):hover {
+    background-color: #334155 !important;
+    color: #ffffff !important;
+}
+
+/* Work Motto Box in About */
+main .bg-gradient-to-r.from-cyan-950\/40 {
+    background: linear-gradient(to right, rgba(8, 51, 68, 0.4), rgba(30, 58, 138, 0.4)) !important;
+    border-color: rgba(6, 182, 212, 0.3) !important;
+}
+main .bg-gradient-to-r.from-cyan-950\/40 blockquote {
+    color: #e2e8f0 !important;
+}
+
+/* Modal Dialogs */
+#modalDelivery > div,
+#modalHockey > div {
+    background-color: #121929 !important;
+    border-color: #1e293b !important;
+    color: #e2e8f0 !important;
+}
+#modalDelivery .text-slate-100,
+#modalHockey .text-slate-100 {
+    color: #f8fafc !important;
+}
+#modalDelivery .text-slate-300,
+#modalHockey .text-slate-300 {
+    color: #cbd5e1 !important;
+}
+#modalDelivery .bg-slate-800,
+#modalHockey .bg-slate-800 {
+    background-color: #1e293b !important;
+    color: #cbd5e1 !important;
+    border-color: #334155 !important;
+}
+
+/* Styling Latar Belakang Modal (Gelap Transparan) */
+.modal {
+    display: none; /* Disembunyikan secara default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.75); /* Efek gelap latar belakang */
+    backdrop-filter: blur(4px); /* Efek blur halus */
+}
+
+/* KOTAK MODAL / POPUP (Diperbesar) */
+.modal-content {
+    background-color: #1a202c; /* Warna latar popup sesuai tema Anda */
+    margin: 5% auto; /* Jarak atas-bawah */
+    padding: 24px;
+    border: 1px solid #2d3748;
+    border-radius: 12px;
+    width: 90%; /* Mengisi 90% layar pada perangkat kecil */
+    max-width: 900px; /* Lebar maksimal diperbesar (sebelumnya mungkin 500px/600px) */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    position: relative;
+}
+
+/* Tombol Close (X) */
+.close-btn {
+    color: #a0aec0;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: #ffffff;
+}
+
+/* Kontainer Gambar di Dalam Modal */
+.modal-body {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto; /* Scroll horizontal jika gambar banyak */
+    padding-bottom: 10px;
+}
+
+/* Ukuran Gambar di Dalam Modal */
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; /* Batas tinggi gambar agar tidak terlalu panjang */
+    object-fit: contain;
+    border-radius: 8px;
+}
