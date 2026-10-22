@@ -101,6 +101,12 @@ document.addEventListener('DOMContentLoaded', () => {
       reg: 'No. BKTI-PII-0004001 | Nilai: 93.33 (Sembilan Puluh Tiga Koma Tiga Tiga)',
       img: 'img/page_5.png'
     },
+    'bkti-warehouse': {
+      title: 'Sertifikat Kelulusan: Warehouse Operations',
+      issuer: 'Badan Keahlian Teknik Industri PII (BKTI-PII) & diklatkerja.com',
+      reg: 'No. BKTI-PII-0025001 | Nilai: 96.67 (Sembilan Puluh Enam Koma Enam Tujuh)',
+      img: 'img/page_6.png'
+    },
     'bsn-iso45001': {
       title: 'Sertifikat Kelulusan: Sistem Manajemen Keselamatan dan Kesehatan Kerja Berbasis SNI ISO 45001:2018',
       issuer: 'Badan Standardisasi Nasional (BSN)',
