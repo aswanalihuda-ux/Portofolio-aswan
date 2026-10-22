@@ -250,17 +250,23 @@ ul, ol {
   align-items: center;
   justify-content: space-between;
   height: 100%;
+<<<<<<< HEAD
   width: 100%;
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
+=======
+>>>>>>> 7e56e600c9f79b096130f7ceb84e9b21250c8f8e
 }
 
 .brand-wrapper {
   display: flex;
   align-items: center;
   gap: 12px;
+<<<<<<< HEAD
   margin-left: 16px; 
+=======
+>>>>>>> 7e56e600c9f79b096130f7ceb84e9b21250c8f8e
 }
 
 .brand-avatar-mini {
@@ -292,6 +298,7 @@ ul, ol {
   letter-spacing: 0.02em;
 }
 
+<<<<<<< HEAD
 /* TAMBAHKAN KELAS INI UNTUK MENGGABUNGKAN BAR NAV & TOMBOL UNDUH CV DI KANAN */
 .header-right-group {
   display: flex;
@@ -300,6 +307,8 @@ ul, ol {
   margin-right: 16px; /* Posisi tombol Unduh CV tetap terkunci di kanan */
 }
 
+=======
+>>>>>>> 7e56e600c9f79b096130f7ceb84e9b21250c8f8e
 .nav-desktop {
   display: flex;
   align-items: center;
@@ -325,7 +334,10 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: 10px;
+<<<<<<< HEAD
   /* margin-right dipindah ke .header-right-group agar posisi tombol Unduh CV tidak berubah */
+=======
+>>>>>>> 7e56e600c9f79b096130f7ceb84e9b21250c8f8e
 }
 
 .btn-header-cv {
@@ -357,7 +369,11 @@ ul, ol {
   font-size: 20px;
   color: var(--navy-primary);
   padding: 8px;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 7e56e600c9f79b096130f7ceb84e9b21250c8f8e
 
 /* Mobile Nav Drawer */
 .mobile-nav {

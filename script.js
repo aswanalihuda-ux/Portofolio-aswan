@@ -94,13 +94,18 @@ document.addEventListener('DOMContentLoaded', () => {
       issuer: 'BNSP - LSP UMKM',
       reg: 'No. Reg. UKM 1420 25885 2024 | Sertifikat No. 47000 1220 0025885 2024',
       img: 'img/page_10.png'
+<<<<<<< HEAD
     },  
+=======
+    },
+>>>>>>> 7e56e600c9f79b096130f7ceb84e9b21250c8f8e
     'bkti-erp': {
       title: 'Sertifikat Kelulusan: ERP Implementation for Supply Chain Management',
       issuer: 'Badan Keahlian Teknik Industri PII (BKTI-PII) & diklatkerja.com',
       reg: 'No. BKTI-PII-0004001 | Nilai: 93.33 (Sembilan Puluh Tiga Koma Tiga Tiga)',
       img: 'img/page_5.png'
     },
+<<<<<<< HEAD
     'bsn-iso45001': {
       title: 'Sertifikat Kelulusan: Sistem Manajemen Keselamatan dan Kesehatan Kerja Berbasis SNI ISO 45001:2018',
       issuer: 'Badan Standardisasi Nasional (BSN)',
@@ -113,6 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
       reg: 'No. ELSDS/BSN/20016/XXVI | Predikat: Sangat Baik',
       img: 'img/BSN2.jpeg'
     },
+=======
+>>>>>>> 7e56e600c9f79b096130f7ceb84e9b21250c8f8e
     'bkti-warehouse': {
       title: 'Sertifikat Kelulusan: Operasi Warehousing',
       issuer: 'Badan Kejuruan Teknik Industri PII (BKTI-PII) & diklatkerja.com',
